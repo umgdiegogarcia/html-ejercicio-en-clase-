@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Tu Tienda de Tecnología</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background-color: #f4f7f6; }
+        header { background: #0f172a; color: #fff; padding: 1.5rem 2rem; text-align: center; }
+        nav { background: #1e293b; padding: 0.75rem; text-align: center; }
+        nav a { color: #38bdf8; margin: 0 20px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; color: #bae6fd; }
+        main { display: flex; flex-wrap: wrap; padding: 20px; gap: 20px; max-width: 1200px; margin: auto; }
+        section { flex: 2; background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        aside { flex: 1; background: #ffffff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 5px solid #0ea5e9; }
+        footer { background: #0f172a; color: #fff; text-align: center; padding: 1.5rem; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #e2e8f0; padding: 10px; text-align: left; }
+        th { background-color: #f8fafc; color: #0f172a; }
+        form div { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; margin-bottom: 5px; color: #334155; }
+        input, textarea, button { width: 100%; padding: 10px; box-sizing: border-box; border: 1px solid #cbd5e1; border-radius: 6px; }
+        button { background: #0ea5e9; color: #fff; border: none; cursor: pointer; font-size: 1rem; font-weight: bold; transition: background 0.2s; }
+        button:hover { background: #0284c7; }
+        .article-box { background: #f0f9ff; border-left: 4px solid #0ea5e9; padding: 15px; margin: 20px 0; border-radius: 0 6px 6px 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TechStore Innovations</h1>
+        <p>Líderes en venta de hardware, componentes y equipos de última generación</p>
+    </header>
+    
+    <nav>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#soporte">Soporte</a>
+    </nav>
+
+    <main>
+        <section id="catalogo">
+            <h2>Bienvenido a Nuestro Catálogo</h2>
+            <p>Encuentra el equipo ideal para ti. Contamos con <strong>garantía oficial</strong> y envío a todo el país en <em>tiempo récord</em>.</p>
+            <br>
+            <p>Nuestras categorías principales:</p>
+            
+            <ul>
+                <li>Laptops y Computadoras de Escritorio</li>
+                <li>Tarjetas Gráficas de Alta Gama</li>
+                <li>Periféricos y Accesorios Gaming</li>
+            </ul>
+
+            <ol>
+                <li>Paso 1: Selecciona tu producto</li>
+                <li>Paso 2: Añade al carrito y paga seguro</li>
+            </ol>
+
+            <article class="article-box">
+                <h3>Lanzamiento: Nuevos Procesadores Serie X</h3>
+                <p>Descubre el rendimiento extremo diseñado para creadores de contenido, arquitectos y entusiastas de los videojuegos.</p>
+            </article>
+
+            <h3>Galería de Productos</h3>
+            <p>Ejemplo de equipo en stock:</p>
+            <img src="https://picsum.photos/600/250" alt="Laptop Gamer de alto rendimiento" style="max-width:100%; height:auto; border-radius:6px;">
+            
+            <p style="margin-top: 15px;">Escucha nuestro podcast semanal de tecnología:</p>
+            <audio controls style="width:100%;">
+                <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+
+            <h3>Tabla de Especificaciones Rápidas</h3>
+            <table>
+                <tr>
+                    <th>Componente</th>
+                    <th>Gama Recomendada</th>
+                </tr>
+                <tr>
+                    <td>Procesador (CPU)</td>
+                    <td>Intel Core i7 / AMD Ryzen 7</td>
+                </tr>
+                <tr>
+                    <td>Memoria RAM</td>
+                    <td>16GB / 32GB DDR5</td>
+                </tr>
+            </table>
+        </section>
+
+        <aside id="ofertas">
+            <h3>Atención al Cliente</h3>
+            <p>¿Tienes dudas sobre compatibilidad? <span>Nuestros expertos</span> te asesoran en línea.</p>
+            
+            <form>
+                <h3>Cotiza tu Ensamblaje</h3>
+                <div>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" placeholder="tucorreo@email.com">
+                </div>
+                <div>
+                    <label for="requerimiento">Requerimiento:</label>
+                    <textarea id="requerimiento" rows="4" placeholder="¿Para qué usarás tu PC?..."></textarea>
+                </div>
+                <div>
+                    <button type="submit">Solicitar Cotización</button>
+                </div>
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechStore Innovations. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
